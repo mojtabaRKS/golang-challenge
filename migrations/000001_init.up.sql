@@ -1,0 +1,8 @@
+CREATE TABLE `users` (
+    `id` INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255),
+    `email` VARCHAR(255),
+    `password` text,
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
